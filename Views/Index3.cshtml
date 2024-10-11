@@ -1,0 +1,16 @@
+﻿<h2>Свържете се с нас</h2>
+<form asp-action="Submit" method="post">
+    <div>
+        <label>Име:</label>
+        <input type="text" name="Name" required />
+    </div>
+    <div>
+        <label>Имейл:</label>
+        <input type="email" name="Email" required />
+    </div>
+    <div>
+        <label>Съобщение:</label>
+        <textarea name="Message" required></textarea>
+    </div>
+    <button type="submit">Изпрати</button>
+</form>

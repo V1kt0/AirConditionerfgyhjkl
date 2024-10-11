@@ -1,0 +1,11 @@
+﻿@model IEnumerable<Product>
+
+<h2>Нашите климатици</h2>
+@foreach (var product in Model)
+{
+    <div>
+        <h3>@product.Name</h3>
+        <p>@product.Description</p>
+        <p>Цена: @product.Price лв.</p>
+    </div>
+}
